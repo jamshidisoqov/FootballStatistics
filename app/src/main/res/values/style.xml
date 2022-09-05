@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <style name="Style.MonthYearPickerDialog.Orange" parent="Theme.MaterialComponents.DayNight.Dialog.Alert">
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Style.DialogButton.Black</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Style.DialogButton.Orange</item>
+        <item name="headerBackgroundColor">@color/orange</item>
+        <item name="headerTextColor">#66000000</item>
+        <item name="headerTextColorSelected">@color/black</item>
+        <item name="monthBackgroundColorSelected">@color/orange</item>
+        <item name="monthTextColor">@color/black</item>
+        <item name="monthTextColorDisabled">#4F000000</item>
+        <item name="monthTextColorSelected">@color/black</item>
+        <item name="yearTextColor">@color/black</item>
+        <item name="yearTextColorSelected">@color/orange</item>
+    </style>
+
+    <style name="Style.MonthYearPickerDialog.Red" parent="Theme.MaterialComponents.DayNight.Dialog.Alert">
+        <item name="android:backgroundTint">#FFCEDD</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Style.DialogButton.Black</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Style.DialogButton.Red</item>
+        <item name="headerBackgroundColor">@color/red</item>
+        <item name="headerTextColor">#66000000</item>
+        <item name="headerTextColorSelected">@color/black</item>
+        <item name="monthBackgroundColorSelected">@color/red</item>
+        <item name="monthTextColor">@color/black</item>
+        <item name="monthTextColorDisabled">#4F000000</item>
+        <item name="monthTextColorSelected">@color/black</item>
+        <item name="yearTextColor">@color/black</item>
+        <item name="yearTextColorSelected">@color/red</item>
+    </style>
+
+    <style name="Style.DialogButton.Black" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Style.DialogButton.Orange" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/orange</item>
+    </style>
+
+    <style name="Style.DialogButton.Red" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+    <style name="Style.DialogButton.White" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Widget.Toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:background">?android:attr/colorAccent</item>
+        <item name="titleTextColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="Widget.Button" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="backgroundTint">?android:attr/colorAccent</item>
+    </style>
+
+</resources>

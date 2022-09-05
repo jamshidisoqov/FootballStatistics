@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Football statistics</string>
+    <string name="news">News</string>
+    <string name="league">Leagues</string>
+    <string name="season">Season</string>
+    <string name="statistics">Statistics</string>
+</resources>
